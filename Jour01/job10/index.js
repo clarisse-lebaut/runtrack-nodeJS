@@ -27,9 +27,6 @@ const params = new URLSearchParams(newURL.search);
 params.append("lang", "fr");
 newURL.search = params.toString();
 console.log(newURL.toString());
+console.log(params); // pour pouvoir récupérer les informations après le ? dans la chaîne de requête...
 
 console.log("");
-
-// ----- pour pouvoir récupérer les informations après le ? dans la chaîne de requête...
-const params2 = new URLSearchParams(newURL.search);
-console.log(params2);
