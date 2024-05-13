@@ -1,1 +1,12 @@
-" A la fin nous sommes tous des histoires, il suffit de faire en sorte d'en être une bonne"
+" A la fin nous sommes tous des histoires, 
+il suffit de faire en sorte d'en être une bonne"
+
+Dans ce fichier texte, j'apporte des modification.
+Je tape du texte parce que j'aime taper sur mon clavier.
+Et plus je mettrais de phrase, plus il y aura du texte dans la console.
+Je ne sais pas trop pourquoi.
+Juste parce que.
+
+Interessant. Lorsque je print l'index.js, le texte de data.texte
+apparait de la même manière dont je le tape. Les passages à la lignes sont
+respecté, tout comme les sauts de lignes.
