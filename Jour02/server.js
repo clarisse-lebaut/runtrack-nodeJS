@@ -1,0 +1,1 @@
+// contient la configuration du serveur ainsi que le démarrage
