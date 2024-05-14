@@ -6,5 +6,5 @@ const server = require('./server');
 const port = 8888;
 
 server.listen(port, () => {
-    console.log (`Lien pour le serveur : http://localhost:${port}/`)
+    console.log (`Lien pour le serveur : \n http://localhost:${port}/`)
 })
