@@ -43,6 +43,8 @@ const routes = {
   },
 };
 
-console.log("le fichier se lit");
+console.log("- - - - - - - - - - - - - - - - - - - - - - - - -");
+console.log("provient du fichier routes.js - le fichier se lit");
+console.log("- - - - - - - - - - - - - - - - - - - - - - - - -");
 
 export default routes;
