@@ -1,0 +1,22 @@
+{
+  "task": [
+    {
+      "id": 1,
+      "title": "Faire les courses",
+      "description": "Aller au supermarché et procéder au remplissage du caddie",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Envoyer un mail à Jean-Pierre",
+      "description": "Ouvrir l'ordinateur, rédigier le corps du mail et l'envoyer",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Procrastination",
+      "description": "Choisir une des tâches de la journée et la reporter à demain",
+      "completed": false
+    }
+  ]
+}
