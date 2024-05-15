@@ -1,0 +1,16 @@
+NO SQL 
+---------------------------
+
+JOB 11 : Écrire une requête permettant de récupérer les produits ayant un prix
+supérieur à 5 euros et un stock inférieur à 100.
+
+Ligne de commandes réalisé : 
+
+db.products.find({"price" : {"$gte" : 5}, "quantity" : {"$lte" : 100}})
+
+
+opérateur logique --> 
+- gte : égal ou supérieur à
+- lte : inférieur ou égal à
+
+si on demande plusieurs champ de rangement = mettre les opérateurs logique entre accolades, qui sont elle même dans une accolades communes avec le champs souhaité.

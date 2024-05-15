@@ -1,0 +1,33 @@
+NO SQL 
+---------------------------
+
+JOB 13 : Récupérer les éléments sans leur ID
+
+Ligne de commandes réalisé : 
+
+db.products.find({},{"_id" : 0})
+
+les première accolades permettent de laisser vide l'appel sans indication précise, il remplit le premier paramètre qui peut contenir autre en focntion de ce que l'on cherche.
+le deuxieme est ce qu'on appele la projection : il s'agi d'exclure certaines valeurs dans l'impression
+
+--------------------- résultats
+
+ici -- > il n'y a l'Id dans l'impression
+{
+  name: 'chaussures',
+  description: 'une paire de chaussures',
+  price: 35,
+  quantity: 120
+}
+{
+  name: 'pantalon noir',
+  description: 'un pantalon noir',
+  price: 14.99,
+  quantity: 12
+}
+{
+  name: 'chaussettes',
+  description: 'des chaussettes cool !',
+  price: 6,
+  quantity: 6
+}

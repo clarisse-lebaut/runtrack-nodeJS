@@ -1,0 +1,14 @@
+NO SQL 
+---------------------------
+
+JOB 12 : Écrire une requête permettant de récupérer les produits ayant un prix
+supérieur à 14.99 euros ou un stock supérieur à 100.
+
+Ligne de commandes réalisé : 
+
+db.products.find({"price" : {"$gte" : 14.99} ,"quantity" : {"$gte" : 100}})
+
+opérateur logique --> 
+- $gte : égal ou supérieur à
+- $lte : inférieur ou égal à
+

@@ -1,0 +1,11 @@
+NO SQL 
+---------------------------
+
+JOB 06 : À l’aide d’une ligne de commande, afficher l’ensemble des collections de
+votre base de données.
+
+Ligne de commandes réalisé : 
+
+shop > show collections 
+
+les deux collections sont bien présente dans la base de données "shop"

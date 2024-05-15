@@ -1,0 +1,10 @@
+NO SQL 
+---------------------------
+
+JOB 15 : Changer le nom de la catégorie “bébé” en “Vêtements pour enfant”.
+
+Ligne de commande réalisé : 
+
+db.category.updateOne({"name" : "promotion"}, {"$set" : {"name" : "promotion estivale"}})
+
+$set --> permet d'apporter des modifications

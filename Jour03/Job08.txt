@@ -1,0 +1,19 @@
+NO SQL 
+---------------------------
+
+JOB 08 : Écrire une requête permettant d’afficher seulement deux catégories.
+
+Ligne de commandes réalisé : 
+
+shop > db.category.find().limit(2)
+
+seulement les deux premières catégories apparaissent dans le terminal : 
+
+{
+  _id: ObjectId('6644a7803e8aead446b07005'),
+  name: 'vêtements'
+}
+{
+  _id: ObjectId('6644a7803e8aead446b07006'),
+  name: 'accessoires'
+}

@@ -1,0 +1,26 @@
+NO SQL 
+---------------------------
+
+JOB 07 : Récupérez l’ensemble des données de la collection “category”.
+
+Ligne de commande réalisé : 
+
+shop > db.category.find()
+
+
+Résulats :
+
+{
+  _id: ObjectId('6644a7803e8aead446b07005'),
+  name: 'vêtements'
+}
+{
+  _id: ObjectId('6644a7803e8aead446b07006'),
+  name: 'accessoires'
+}
+{
+  _id: ObjectId('6644a7803e8aead446b07007'),
+  name: 'promotion'
+}
+
+shop >

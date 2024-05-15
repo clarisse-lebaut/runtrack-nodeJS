@@ -1,0 +1,19 @@
+NO SQL 
+---------------------------
+
+JOB 05 : Créez une nouvelle collection nommée “category” et insérez différentes
+catégories en une seule ligne de commande (au minimum 3).
+
+Ligne de commande réalisé : 
+
+> use shop
+< switched to db shop
+> db.category.insertMany ([{"name" : "vêtements"},{"name" : "accessoires"}, {"name" : "promotion"}])
+<{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6644a35db444c2475bea3391'),
+    '1': ObjectId('6644a35db444c2475bea3392'),
+    '2': ObjectId('6644a35db444c2475bea3393')
+  }
+}
