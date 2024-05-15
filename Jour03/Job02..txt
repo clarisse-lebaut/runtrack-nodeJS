@@ -1,0 +1,14 @@
+NO SQL 
+---------------------------
+
+JOB 02 : À l’aide du terminal dans MongoDBCompass, afficher l’ensemble des bases de données présentent dans Compass.
+
+une fois la console ouverte : 
+
+test > show dbs
+
+> show dbs
+< admin
+  config
+  local
+test >

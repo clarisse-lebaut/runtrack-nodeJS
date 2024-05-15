@@ -1,0 +1,7 @@
+NO SQL 
+---------------------------
+
+JOB 01 : Installez sur votre ordinateur MongoDb en suivant les instructions
+
+Installation réussi. La suite des commandes se passe dans MongoDBcompass.
+J'ai cliqué sur le bouton "crée" afin de pouvoir accéder au terminal.
