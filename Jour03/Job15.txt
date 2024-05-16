@@ -8,3 +8,20 @@ Ligne de commande réalisé :
 db.category.updateOne({"name" : "promotion"}, {"$set" : {"name" : "promotion estivale"}})
 
 $set --> permet d'apporter des modifications
+
+
+impression console :
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+--- element bien modifier
+
+{
+  _id: ObjectId('6644a7803e8aead446b07007'),
+  name: 'promotion estivale'
+}
