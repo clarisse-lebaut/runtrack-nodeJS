@@ -1,5 +1,4 @@
-/* --- JOB 3 --- */
-/* définir le schéma des étudiants, doit respecter le schéma initial dans la database */
+/* --- JOB 4 --- */
 
 // ici c'est l'import de mogoose
 const mongoose = require("mongoose");
@@ -17,7 +16,7 @@ const schema = new mongoose.Schema({
 });
 
 // ici on demande simplement de respecter le schéma déjà établit dans la base de données
-// 
+//
 const Years = mongoose.model("years", schema, "years");
 
 generate();
