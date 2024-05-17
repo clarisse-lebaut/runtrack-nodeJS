@@ -5,22 +5,21 @@ const app = express(); // création d'une instance d'Express
 const path = require("path"); // permet de récupérer les chemins des fichiers qui seront envoyé comme réponse
 
 // serveur static qui permet de servir des fichier static
-// cette méthode permet de servir des fichier statics
-app.use(express.static("publics"));
+app.use(express.static(path.join(__dirname, "public")));
 
-//  première page
+//  première page -- accueil
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html")); // important de mettre un double undescrore --> permet de faire correctement la syntaxe
 });
 
-// deuxième page
+// deuxième page -- a propos
 app.get("/about", (req, res) => {
-  res.send("page a propos qui présente le projet");
+  res.sendFile(path.join(__dirname, "views", "about.html"));
 });
 
-// troisième page
-app.get("/error404", (req, res) => {
-  res.send("page 404");
+// page erreur 404 --> avec use, est appeler unqiement quand la page demandé n'existe pas
+app.use((req, res, next) => {
+  res.status(404).sendFile(path.join(__dirname, "views", "error404.html"));
 });
 
 // permet de lancer le serveur afin de rendre accessible les éléments

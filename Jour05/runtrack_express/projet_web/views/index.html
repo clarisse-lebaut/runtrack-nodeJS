@@ -4,32 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>accueil</title>
+    <link rel="stylesheet" href="/home.css">
   </head>
   <body>
     <main>
-      <style>
-        main {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-
-        #pic_box {
-          display: flex;
-          justify-content: center;
-        }
-
-        #cloud_picture {
-          width: 500px;
-          height: 500px;
-          border-radius: 20px;
-          box-shadow: 0 0 10px 1px gray;
-          object-fit: cover;
-        }
-      </style>
       <h1>ACCEUIL DU SITE</h1>
       <div id="pic_box">
-        <img id="cloud_picture" src="../publics/nuage.jpg" alt="clouds picture" />
+        <!-- pour le chemin de l'image, il n'y a plus besoin de mettre tout le chemin,
+        juste un format similaire à celui dans l'index.js -->
+        <img id="cloud_picture" src="/nuage.jpg" alt="clouds picture" />
       </div>
     </main>
   </body>
