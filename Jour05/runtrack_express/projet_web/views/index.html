@@ -7,7 +7,30 @@
   </head>
   <body>
     <main>
+      <style>
+        main {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        #pic_box {
+          display: flex;
+          justify-content: center;
+        }
+
+        #cloud_picture {
+          width: 500px;
+          height: 500px;
+          border-radius: 20px;
+          box-shadow: 0 0 10px 1px gray;
+          object-fit: cover;
+        }
+      </style>
       <h1>ACCEUIL DU SITE</h1>
+      <div id="pic_box">
+        <img id="cloud_picture" src="../publics/nuage.jpg" alt="clouds picture" />
+      </div>
     </main>
   </body>
 </html>
